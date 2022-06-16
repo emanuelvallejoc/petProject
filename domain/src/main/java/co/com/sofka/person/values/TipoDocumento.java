@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class DocumentType implements ValueObject<DocumentType.Types> {
+public class TipoDocumento implements ValueObject<TipoDocumento.Types> {
 
     private final Types types;
 
@@ -13,7 +13,7 @@ public class DocumentType implements ValueObject<DocumentType.Types> {
         return types;
     }
 
-    public DocumentType(Types types) {
+    public TipoDocumento(Types types) {
         this.types = Objects.requireNonNull(types, "Tipo de documento es obligatorio");
     }
 

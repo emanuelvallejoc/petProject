@@ -4,11 +4,11 @@ import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class Name implements ValueObject<String> {
+public class Nombre implements ValueObject<String> {
 
     private final String name;
 
-    public Name(String name) {
+    public Nombre(String name) {
         this.name = Objects.requireNonNull(name, "nombre es obligatorio");
     }
 
@@ -20,9 +20,9 @@ public class Name implements ValueObject<String> {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Name)) return false;
-        Name name1 = (Name) o;
-        return Objects.equals(name, name1.name);
+        if (!(o instanceof Nombre)) return false;
+        Nombre nombre1 = (Nombre) o;
+        return Objects.equals(name, nombre1.name);
     }
 
     @Override
