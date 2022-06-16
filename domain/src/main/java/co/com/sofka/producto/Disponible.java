@@ -11,7 +11,6 @@ public class Disponible extends Entity<DisponibleId> {
 
     protected Name nombre;
 
-
     public Disponible(DisponibleId entityId) {
         super(entityId);
     }
