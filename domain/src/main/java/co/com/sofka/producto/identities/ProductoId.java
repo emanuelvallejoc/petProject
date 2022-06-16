@@ -1,4 +1,4 @@
-package co.com.sofka.producto;
+package co.com.sofka.producto.identities;
 
 import co.com.sofka.domain.generic.Identity;
 

@@ -5,7 +5,7 @@ import co.com.sofka.domain.generic.Entity;
 import co.com.sofka.person.values.TipoDocumento;
 import co.com.sofka.person.values.Email;
 import co.com.sofka.person.values.NumeroDocumento;
-import co.com.sofka.person.values.AdministradorBodegaId;
+import co.com.sofka.person.identities.AdministradorBodegaId;
 
 import java.util.Objects;
 

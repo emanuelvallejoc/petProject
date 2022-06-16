@@ -3,6 +3,9 @@ package co.com.sofka.person;
 import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.person.event.*;
+import co.com.sofka.person.identities.AdministradorBodegaId;
+import co.com.sofka.person.identities.DespachadorId;
+import co.com.sofka.person.identities.PersonaId;
 import co.com.sofka.person.values.*;
 
 public class Persona extends AggregateEvent<PersonaId> {

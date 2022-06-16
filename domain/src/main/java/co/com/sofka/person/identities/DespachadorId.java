@@ -1,4 +1,4 @@
-package co.com.sofka.person.values;
+package co.com.sofka.person.identities;
 
 import co.com.sofka.domain.generic.Identity;
 

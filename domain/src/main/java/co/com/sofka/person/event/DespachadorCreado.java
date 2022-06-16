@@ -2,7 +2,7 @@ package co.com.sofka.person.event;
 
 import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.person.values.DespachadorId;
+import co.com.sofka.person.identities.DespachadorId;
 import co.com.sofka.person.values.TipoDocumento;
 import co.com.sofka.person.values.Email;
 import co.com.sofka.person.values.NumeroDocumento;

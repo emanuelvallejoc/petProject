@@ -4,7 +4,7 @@ import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.person.values.TipoDocumento;
 import co.com.sofka.person.values.Email;
 import co.com.sofka.person.values.NumeroDocumento;
-import co.com.sofka.person.values.AdministradorBodegaId;
+import co.com.sofka.person.identities.AdministradorBodegaId;
 import co.com.sofka.domain.generic.DomainEvent;
 
 public class AdministradorBodegaCreado extends DomainEvent {
