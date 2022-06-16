@@ -1,2 +1,4 @@
-package co.com.sofka.producto;public class Precio {
+package co.com.sofka.producto;
+
+public class Precio {
 }
