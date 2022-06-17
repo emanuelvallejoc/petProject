@@ -1,4 +1,4 @@
-package co.com.sofka.persona.event;
+package co.com.sofka.persona.events;
 
 import co.com.sofka.persona.values.Email;
 import co.com.sofka.domain.generic.DomainEvent;

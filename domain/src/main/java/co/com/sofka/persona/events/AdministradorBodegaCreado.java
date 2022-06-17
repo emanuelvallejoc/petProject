@@ -1,32 +1,31 @@
-package co.com.sofka.persona.event;
+package co.com.sofka.persona.events;
 
 import co.com.sofka.generics.values.Nombre;
-import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.persona.values.DespachadorId;
+import co.com.sofka.persona.identities.AdministradorBodegaId;
 import co.com.sofka.persona.values.TipoDocumento;
 import co.com.sofka.persona.values.Email;
 import co.com.sofka.persona.values.NumeroDocumento;
+import co.com.sofka.domain.generic.DomainEvent;
 
-public class DespachadorCreado extends DomainEvent {
-
-    private final DespachadorId entityId;
+public class AdministradorBodegaCreado extends DomainEvent {
+    private final AdministradorBodegaId administradorBodegaId;
     private final Nombre nombre;
     private final TipoDocumento tipoDocumento;
     private final NumeroDocumento numeroDocumento;
     private final Email email;
 
-    public DespachadorCreado(DespachadorId entityId, Nombre nombre, TipoDocumento tipoDocumento,
-                             NumeroDocumento numeroDocumento, Email email){
-        super("co.com.sofka.ddd.person.events.DespachadorCreado");
-        this.entityId = entityId;
+    public AdministradorBodegaCreado(AdministradorBodegaId administradorBodegaId, Nombre nombre, TipoDocumento tipoDocumento,
+                                     NumeroDocumento numeroDocumento, Email email){
+        super("co.com.sofka.ddd.person.events.AdministradorBodegaCreado");
+        this.administradorBodegaId = administradorBodegaId;
         this.nombre = nombre;
         this.tipoDocumento = tipoDocumento;
         this.numeroDocumento = numeroDocumento;
         this.email = email;
     }
 
-    public DespachadorId getEntityId() {
-        return entityId;
+    public AdministradorBodegaId getAdministradorBodegaId() {
+        return administradorBodegaId;
     }
 
     public Nombre getNombre() {

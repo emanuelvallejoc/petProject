@@ -2,10 +2,10 @@ package co.com.sofka.persona;
 
 import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.domain.generic.Entity;
+import co.com.sofka.persona.identities.AdministradorBodegaId;
 import co.com.sofka.persona.values.TipoDocumento;
 import co.com.sofka.persona.values.Email;
 import co.com.sofka.persona.values.NumeroDocumento;
-import co.com.sofka.persona.values.AdministradorBodegaId;
 
 import java.util.Objects;
 
