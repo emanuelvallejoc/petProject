@@ -9,7 +9,7 @@
 ------------------------------------------------
 #DIAGRAMAS 
 ![img.jpg](img/DiagrmaSubdominio.jpg)
-![img.jpg](img/Dominio.jpg)
+![img.jpg](img/Modelo de Dominio.jpg)
 
 ------------------------------------------------
 #EVENTOS
@@ -20,6 +20,5 @@
 ##Integrantes
 
 Emanuel Vallejo
-Farly Artunduaga
 
-### Modelo de Dominio
+Farly Artunduaga
