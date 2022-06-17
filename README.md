@@ -6,8 +6,18 @@
 #ANALISIS DEL PROBLEMA BIG PICTURE
 
 ![img.jpg](img/BigPictureModelamiento.jpg)
+------------------------------------------------
+#DIAGRAMAS 
+![img.jpg](img/DiagrmaSubdominio.jpg)
+![img.jpg](img/Modelo de Dominio.jpg)
 
-###Integrantes
+------------------------------------------------
+#EVENTOS
+
+![img.jpg](img/Eventos.jpg)
+
+------------------------------------------------
+##Integrantes
 
 Emanuel Vallejo
 Farly Artunduaga
