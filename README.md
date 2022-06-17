@@ -9,7 +9,7 @@
 ------------------------------------------------
 #DIAGRAMAS 
 ![img.jpg](img/DiagrmaSubdominio.jpg)
-![img.jpg](img/Modelo de Dominio.jpg)
+![img.jpg](img/Dominio.jpg)
 
 ------------------------------------------------
 #EVENTOS
