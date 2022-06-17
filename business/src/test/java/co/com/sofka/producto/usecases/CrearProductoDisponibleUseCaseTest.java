@@ -37,6 +37,7 @@ class CrearProductoDisponibleUseCaseTest {
        var precio = new Precio(10000);
        var cantidad = new Cantidad(20);
 
+
        var command = new CrearProductoDisponibleCommand(productoId, disponibleId, nombre, precio, cantidad);
 
        var eventos = UseCaseHandler.getInstance()
