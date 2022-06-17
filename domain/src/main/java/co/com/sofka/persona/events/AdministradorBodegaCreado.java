@@ -1,4 +1,4 @@
-package co.com.sofka.persona.event;
+package co.com.sofka.persona.events;
 
 import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.persona.identities.AdministradorBodegaId;

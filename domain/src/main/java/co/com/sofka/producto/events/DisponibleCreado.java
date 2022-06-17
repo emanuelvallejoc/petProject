@@ -17,7 +17,7 @@ public class DisponibleCreado extends DomainEvent {
     private final Cantidad cantidad;
 
     public DisponibleCreado(DisponibleId disponibleId, Nombre nombre, Precio precio, Cantidad cantidad) {
-        super("co.com.sofka.ddd.person.events.DisponibleCreado");
+        super("co.com.sofka.ddd.producto.events.DisponibleCreado");
         this.disponibleId = disponibleId;
         this.nombre = nombre;
         this.precio = precio;

@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.persona.identities.AdministradorBodegaId;
-import co.com.sofka.persona.event.*;
+import co.com.sofka.persona.events.*;
 import co.com.sofka.persona.identities.DespachadorId;
 import co.com.sofka.persona.identities.PersonaId;
 import co.com.sofka.persona.values.*;

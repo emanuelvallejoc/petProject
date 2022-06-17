@@ -17,7 +17,7 @@ public class PedidoCreado extends DomainEvent {
     private final Cantidad cantidad;
 
     public PedidoCreado(PedidoId pedidoId, Nombre nombre, Precio precio, Cantidad cantidad) {
-        super("co.com.sofka.ddd.person.events.PedidoCreado");
+        super("co.com.sofka.ddd.producto.events.PedidoCreado");
         this.pedidoId = pedidoId;
         this.nombre = nombre;
         this.precio = precio;

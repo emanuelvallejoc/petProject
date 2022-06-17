@@ -41,9 +41,7 @@ public class Pedido extends Entity<PedidoId> {
         return nombre.value();
     }
 
-    public Integer precio() {
-        return precio.value();
-    }
+    public Integer precio() { return precio.value(); }
 
     public Integer cantidad()  { return cantidad.value();  }
 

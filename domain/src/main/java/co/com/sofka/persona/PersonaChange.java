@@ -1,7 +1,7 @@
 package co.com.sofka.persona;
 
 import co.com.sofka.domain.generic.EventChange;
-import co.com.sofka.persona.event.*;
+import co.com.sofka.persona.events.*;
 
 public class PersonaChange extends EventChange {
 
