@@ -7,13 +7,13 @@ import co.com.sofka.persona.values.*;
 public class CrearAdministradorDeBodegaCommand extends Command {
 
     private final PersonaId personaId;
-    private final DespachadorId entityId;
+    private final AdministradorBodegaId entityId;
     private final Nombre nombre;
     private final TipoDocumento tipoDocumento;
     private final NumeroDocumento numeroDocumento;
     private final Email email;
 
-    public CrearAdministradorDeBodegaCommand(PersonaId personaId, DespachadorId entityId, Nombre nombre,
+    public CrearAdministradorDeBodegaCommand(PersonaId personaId, AdministradorBodegaId entityId, Nombre nombre,
                                       TipoDocumento tipoDocumento, NumeroDocumento numeroDocumento, Email email) {
         this.personaId = personaId;
         this.entityId = entityId;
@@ -27,7 +27,7 @@ public class CrearAdministradorDeBodegaCommand extends Command {
         return personaId;
     }
 
-    public DespachadorId getEntityId() {
+    public AdministradorBodegaId getEntityId() {
         return entityId;
     }
 
