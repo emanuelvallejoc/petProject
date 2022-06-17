@@ -2,7 +2,7 @@ package co.com.sofka.persona.command;
 
 import co.com.sofka.domain.generic.Command;
 import co.com.sofka.generics.values.Nombre;
-import co.com.sofka.persona.identities.DespachadorId;
+import co.com.sofka.persona.identities.AdministradorBodegaId;
 import co.com.sofka.persona.identities.PersonaId;
 import co.com.sofka.persona.values.*;
 
