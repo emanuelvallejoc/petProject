@@ -18,8 +18,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static java.lang.Integer.valueOf;
-
 @ExtendWith(MockitoExtension.class)
 class CrearProductoDisponibleUseCaseTest {
 
