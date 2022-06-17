@@ -2,7 +2,7 @@ package co.com.sofka.persona.command;
 
 import co.com.sofka.domain.generic.Command;
 import co.com.sofka.generics.values.Nombre;
-import co.com.sofka.persona.identities.DespachadorId;
+import co.com.sofka.persona.identities.AdministradorBodegaId;
 import co.com.sofka.persona.identities.PersonaId;
 import co.com.sofka.persona.values.*;
 
@@ -16,7 +16,7 @@ public class CrearAdministradorDeBodegaCommand extends Command {
     private final Email email;
 
     public CrearAdministradorDeBodegaCommand(PersonaId personaId, AdministradorBodegaId entityId, Nombre nombre,
-                                      TipoDocumento tipoDocumento, NumeroDocumento numeroDocumento, Email email) {
+                                             TipoDocumento tipoDocumento, NumeroDocumento numeroDocumento, Email email) {
         this.personaId = personaId;
         this.entityId = entityId;
         this.nombre = nombre;
