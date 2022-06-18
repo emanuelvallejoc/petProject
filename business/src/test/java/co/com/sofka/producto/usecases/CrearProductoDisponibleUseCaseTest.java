@@ -7,6 +7,7 @@ import co.com.sofka.generics.values.Nombre;
 import co.com.sofka.persona.usescases.CrearProductoDisponibleUseCase;
 import co.com.sofka.producto.command.CrearProductoDisponibleCommand;
 import co.com.sofka.producto.events.CrearProductoDisponible;
+import co.com.sofka.producto.events.DisponibleCreado;
 import co.com.sofka.producto.identities.DisponibleId;
 import co.com.sofka.producto.identities.ProductoId;
 import co.com.sofka.producto.values.Cantidad;
@@ -43,10 +44,10 @@ class CrearProductoDisponibleUseCaseTest {
                .orElseThrow()
                .getDomainEvents();
 
-       var productoDisponibleCreado = (CrearProductoDisponible) eventos.get(0);
+       var productoDisponibleCreado = (DisponibleCreado) eventos.get(0);
 
        Assertions.assertEquals("Producto numero 1", productoDisponibleCreado.getNombre().value());
-       Assertions.assertEquals(Integer.valueOf(20000), productoDisponibleCreado.getPrecio());
+       Assertions.assertEquals(10000, productoDisponibleCreado.getPrecio().value());
 
 
    }
